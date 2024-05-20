@@ -1,7 +1,12 @@
 import React from "react";
+import { appleImg } from "../utils";
 
 const Highlights = () => {
-  return <div></div>;
+  return (
+   <div className=" text-white">
+   Highlights
+   </div>
+);
 };
 
 export default Highlights;

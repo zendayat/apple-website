@@ -1,16 +1,17 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Highlights from "./components/Highlights";
-import Hero from "./components/Hero";
+import React from 'react'
+import Highlights from './components/Highlights';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <main className=" bg-black">
-      <Navbar />
-      <Hero />
-      <Highlights />
+    <main className=' bg-black relative'>
+      <Navbar/>
+      <Hero/>
+      <Highlights/>
+      
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
