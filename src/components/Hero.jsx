@@ -34,7 +34,7 @@ const Hero = () => {
   return (
     <section className=' w-full nav-height bg-black relative'>
       <div className=' h-5/6 w-full flex-center flex-col'>
-        <p className=' hero-title' id='hero'>IPHONES BAYBEEE</p>
+        <p className=' hero-title' id='hero'>IPHONE 15</p>
         <div className=' md:w-10/12 w-9/12'>
           <video autoPlay muted playsInline={true} className=' pointer-events-none'>
             <source src={videoSrc} type='video/mp4'/>
